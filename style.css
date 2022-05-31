@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Righteous&family=Roboto+Mono:wght@200;300;400;500;600&display=swap');
+@import url(' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif Nunito Sans;
+    color: #4A5856;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #fff;
+}
+.color{
+    color: #4A5856;
+}
+.navbar{
+    padding: 0 3vw;
+}
+nav ul{
+    height: 100vh;
+}
+.nav-item-cont{
+    height: 100vh;
+    align-items: top;
+}
+.nav-item{
+    padding: 0 1vw;
+}
+
+.my-main-nav:hover{
+    color: #00709F !important;
+}
+.header-item{
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+.header-img{
+    width: 90%;
+    height: 50vh;
+}
+.heading{
+    width: 90%;
+    font-size: 30pt;
+    font-weight: 700;
+}
+.content{
+    font-size: 11pt;
+    font-weight: 200;
+}
+.about-img{
+    width: 90%;
+    height: 25vh;
+}
+.mrg-top{
+    margin-top: 5vh;
+}
+.project-item{
+    height: 35vh;
+}
+.project-item img{
+    width: 90%;
+     height: 70%;
+}
+.project-item span{
+    font-size: 9pt;
+}
+.project-item img{
+    border-radius: 5px;
+}
+.main-heading h1{
+    font-size: 40pt;
+    font-weight: 700;
+}
+.main-heading h2{
+    font-size: 30pt;
+    font-weight: 500;
+}
+.award-img{
+    display: none;
+}
+.awards-cont{
+    width: 90%;
+    display: flex;
+}
+.awards-cont div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0;
+}
+.awards-cont div span{
+    font-weight: 500;
+}
+.star-icon{
+    color: #00709F;
+}
+.awards-cont img{
+    width: 8vw;
+    height: 8vw;
+    margin-top: 4vh;
+    margin-right: 3vw;
+}
+
+@media screen and (min-width:1024px){
+    nav ul{
+        height: 6vh;
+    }
+    .header-img{
+        width: 80%;
+        height: 70vh;
+        border-radius: 0 50px 0 0;
+    }
+    .heading{
+        width: 90%;
+        font-size: 60pt;
+        font-family: Nunito Sans;
+        padding-top: 20vh;
+    }
+    .content{
+        width: 80%;
+        font-size: 20pt;
+        line-height: 2;
+        margin-top: 10vh;
+    }
+    .about-img{
+        width: 70%;
+        height: 50vh;
+        border-radius: 50px 0 0 0;
+    }
+    .mrg-top{
+        margin-top: 15vh;
+    }
+    .main-heading h1{
+        font-size: 70pt;
+    }
+    .main-heading h2{
+        font-size: 60pt;
+    }
+    .project-item{
+        height: 50vh;
+    }
+    .project-item img{
+        height: 80%;
+    }
+    .project-item span{
+        font-size: 12pt;
+    }
+    .award-img{
+        display: flex;
+    }
+    .award-img img{
+        width: 80%;
+        height: 80vh;
+        border-radius: 0 50px 0 0;
+    }
+    .awards-cont div span{
+        font-size: 15pt;
+    }
+    .awards-cont img{
+        width: 3vw;
+        height: 3vw;
+        margin: 3vh 1vw;
+    }
+    
+}
